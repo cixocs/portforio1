@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/**
+ *
+ *  コンテンツ共通
+ *
+ */
+
+/*--------------------------------------------------------------------------
+   common parts
+---------------------------------------------------------------------------*/
+
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.em{
+	font-weight:bold;
+}
+
+/* link
+-----------------------------------------------------------------*/
+a span.blank{
+	padding:0 20px 0 0;
+	background:url(/keiei/shared/images/ico_blank01.png) no-repeat 100% .2em;
+}
+
+/* txt-area
+-----------------------------------------------------------------*/
+.txt-area{
+	overflow:hidden;
+	zoom:1;
+}
+
+/* circlea-list
+-----------------------------------------------------------------*/
+ul.circlea-list{
+}
+ul.circlea-list li{
+	padding:0 0 0 15px;
+	background:url(../images/ico_circlea02.png) no-repeat 0 .4em;
+}
+
+
+/*--------------------------------------------------------------------------
+   templete
+---------------------------------------------------------------------------*/
+
+/* sec-base
+-----------------------------------------------------------------*/
+.sec-base{
+	position:relative;
+}
+
+/* Title
+-----------------------------------------------------------------*/
+#Title{
+	width:100%;
+	padding:0 0 30px;
+	border-bottom:1px solid #DEDEDE;
+	background:url(/keiei/shared/images/sec_bg_base02.png) repeat 0 0;
+}
+#Title p.visual{
+	overflow:hidden;
+	position:relative;
+	height:310px;
+}
+body.SP #Title p.visual{
+	position:static;
+}
+#Title p.visual img{
+	display:block;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin:0 0 0 -960px;
+}
+body.SP #Title p.visual img{
+	top:60px;
+}
+#Title h2{
+	padding:30px 0 0;
+	text-align:center;
+}
+body.SP #Title h2{
+	padding:50px 0 0;
+}
+
+/* sec-frame-base
+-----------------------------------------------------------------*/
+.sec-frame-base{
+	padding:50px 20px 55px;
+}
+
+/* lead-frame
+-----------------------------------------------------------------*/
+.lead-frame{
+	padding:0 0 20px;
+}
+.lead-frame h3{
+	margin:0 0 30px;
+	text-align:center;
+}
+.lead-frame p.txt{
+	width:780px;
+	margin:0 auto;
+}
+.lead-frame .localnavi{
+	margin:40px 0 0;
+}
+.lead-frame .localnavi ul{
+	text-align:center;
+}
+.lead-frame .localnavi ul li{
+	margin:0 10px 0;
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	vertical-align:top;
+}
+
+/* scc-com-block
+-----------------------------------------------------------------*/
+.scc-com-block{
+	position:relative;
+	width:100%;
+	background:url(/keiei/shared/images/shadow_bg_line02.png) repeat-x 0 0;
+}
+.scc-com-block .inner-outline{
+	width:100%;
+	padding:4px 0;
+	background:url(/keiei/shared/images/shadow_bg_line.png) repeat-x 0 100%;
+}
+.scc-com-block .inner-inline{
+	background:#FFF;
+}
+
+/* scc-com-box
+-----------------------------------------------------------------*/
+.scc-com-box{
+	position:relative;
+	width:744px;
+	margin:50px auto 0;
+	padding:6px;
+	background:url(/keiei/shared/images/sec_bg_base03.png) repeat 0 0;
+}
+.scc-com-box .inner-outline{
+	padding:45px 0 0;
+	background:#FFF;
+}
+.scc-com-box h4{
+	position:absolute;
+	top:-20px;
+	left:-8px;
+}
+.scc-com-box p.obj{
+	position:absolute;
+	bottom:-30px;
+	right:-45px;
+}
+
+/* more-area
+-----------------------------------------------------------------*/
+
+.more-area{
+	padding:35px 0 45px;
+	text-align:center;
+}
+.more-area .btn-wrap{
+	width:758px;
+	margin:0 auto;
+}
+.more-area ul{
+	padding:25px 0 0;
+	text-align:center;
+}
+.more-area ul li{
+	margin:0 12px 0;
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	vertical-align:top;
+}
+
+
+/* Banner-area
+-----------------------------------------------------------------*/
+#Banner-area{
+	width:100%;
+	border-bottom:1px solid #DEDEDE;
+	background:url(/keiei/shared/images/sec_bg_base02.png) repeat 0 0;
+}
+#Banner-area .inner{
+	width:100%;
+	padding:50px 0;
+	background:url(/keiei/shared/images/shadow_bg_line.png) repeat-x 0 0;
+}
+#Banner-area ul{
+	text-align:center;
+}
+#Banner-area ul li{
+	margin:0 12px 0;
+	display:inline-block;
+	/display:inline;
+	/zoom:1;
+	vertical-align:top;
+}
+
+/* localselect
+-----------------------------------------------------------------*/
+.localselect{
+	position:relative;
+	width:100%;
+	padding:50px 0 48px;
+	background:url(/keiei/shared/images/shadow_bg_line.png) repeat-x 0 0;
+}
+.localselect p.ttl{
+	width:768px;
+	margin:0 auto;
+}
+.localselect ul{
+	overflow:hidden;
+	width:768px;
+	margin:0 auto;
+}
+.localselect ul li{
+	float:left;
+}
+.localselect p.select-ico{
+	position:absolute;
+	top:0;
+	left:50%;
+	width:768px;
+	margin:0 0 0 -384px;
+}
+.localselect p.select-ico img{
+	display:block;
+	position:absolute;
+	top:0;
+}
+#Main.business .localselect p.select-ico img{
+	left:80px;
+}
+#Main.marketing .localselect p.select-ico img{
+	left:270px;
+}
+#Main.finance .localselect p.select-ico img{
+	left:460px;
+}
+#Main.global .localselect p.select-ico img{
+	left:650px;
+}
+
+
+/* list
+-----------------------------------------------------------------*/
+
+
+/* form
+-----------------------------------------------------------------*/
+/* table */
+table.form-tbl{
+}
+
+/* input */
+input[type="checkbox"],
+input[type="radio"]{
+	vertical-align:text-bottom;
+}
+input.input-base{
+}
+
+/* textarea */
+textarea.textarea-base{
+}
+
+
+/*--------------------------------------------------------------------------
+   common parts
+---------------------------------------------------------------------------*/
+
+/* xxx
+-----------------------------------------------------------------*/
+
+
+
+

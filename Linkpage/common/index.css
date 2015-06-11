@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/**
+ *
+ *  総合トップページ
+ *
+ */
+
+/*--------------------------------------------------------------------------
+   overwrite
+---------------------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------------------
+   Visual
+---------------------------------------------------------------------------*/
+
+#Visual{
+	width:100%;
+	height:500px;
+}
+
+/* Slider
+-----------------------------------------------------------------*/
+#Slider{
+	overflow:hidden;
+	position:relative;
+	height:550px;
+	z-index:6000;
+}
+#Slider ul.img-list{
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left:0;
+	height:550px;
+}
+#Slider ul.img-list li{
+	position:relative;
+	overflow:hidden;
+	float:left;
+	height:550px;
+}
+#Slider ul.img-list li img{
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+}
+#Slider ul.txt-list{
+	position:absolute;
+	top:50px;
+	left:65px;
+	width: 100%;
+}
+#Slider ul.txt-list li{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+}
+#Slider ul.txt-list li span{
+	overflow: hidden;
+	display: block;
+}
+
+
+/*--------------------------------------------------------------------------
+   Index-sec
+---------------------------------------------------------------------------*/
+
+#Index-sec{
+	position:relative;
+	margin:-56px 0 0;
+	background:url(/keiei/shared/images/sec_bg_top.png) repeat-x 0 0;
+	z-index:7000;
+}
+
+
+/*--------------------------------------------------------------------------
+   Course
+---------------------------------------------------------------------------*/
+
+#Course{
+	padding:90px 60px 85px 30px;
+}
+#Course h2{
+	padding:0 0 15px;
+	text-align:center;
+}
+#Course .link{
+	width:754px;
+	margin:55px auto 0;
+}
+#Course p.obj01{
+	position:absolute;
+	bottom:80px;
+	right:0;
+}
+#Course p.obj02{
+	position:absolute;
+	bottom:87px;
+	left:0;
+}
+#Course .box-wrap{
+	overflow:hidden;
+	width:100%;
+	margin:0 auto;
+}
+#Course .box-wrap .box{
+	width:50%;
+	margin:25px 0 0;
+}
+#Course .box-wrap .box p.img{
+	float:left;
+	padding:0 20px 0 30px;
+}
+#Course .box-wrap .txt-area{
+	padding:5px 0 0;
+}
+#Course .box-wrap .txt-area h3{
+	margin:8px 0 15px;
+}
+
+
+/*--------------------------------------------------------------------------
+   Select
+---------------------------------------------------------------------------*/
+
+#Select a:hover img{
+	opacity:0.5;
+}
+
+
+/*----------------キャプション-----------------*/
+#caption1{
+    float: left;
+}
+figure {
+	position: relative;
+	overflow: hidden;
+	width: 513px;
+	margin: 0;
+}
+figcaption {
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	background: rgba(250,250,250,.6);
+	-webkit-transition: .3s;
+	transition: .3s;
+	opacity: 1;
+}
+figcaption img{
+	margin-top: 30%;
+	margin-left: 40%;
+	width: 100px;
+}
+figcaption p{
+	font-size:24px;
+	text-align:center;
+}
+figure:hover figcaption {
+	bottom: -50%;
+	left: 0;
+}
+
+
+figcaption img{
+	margin-top: 30%;
+	margin-left: 40%;
+	width: 80px;
+}
+
+
+/*----------------キャプション2-----------------*/
+#caption2{
+    float: left;
+	margin-bottom: 50px;
+}
+#caption2 figure {
+	position: relative;
+	overflow: hidden;
+	width: 513px;
+	margin: 0;
+}
+#caption2 figcaption {
+	position: absolute;
+	top: -100%;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 50%;
+	background: rgba(250,250,250,.6);
+	-webkit-transition: .3s;
+	transition: .3s;
+	opacity: 1;
+}
+#caption2 figcaption img{
+	margin-top: 30%;
+	margin-left: 40%;
+	width: 100px;
+}
+#caption2 figcaption p{
+	font-size:24px;
+	text-align:center;
+}
+#caption2 figure:hover figcaption {
+	top: 0;
+	left: 0;
+}
+
+
+#caption2 figcaption img{
+	margin-top: 25%;
+	margin-left: 40%;
+	width: 80px;
+}
+
+#Footer{
+	clear:both;
+	margin: 0;
+}
+
+
+
+/*----------------------------------*/
+.topicpath{
+	margin: 10px;
+	font-size: 12px;
+}
+.topicpath a:hover{
+	color: #FC0;
+	text-decoration: none;
+}
+
+.subnavi{
+	margin-left: 10px;
+	margin-top: 30px;
+	border-bottom: 1px solid #999;
+}
+.subnavi li{
+	font-size: 24px;
+	font-weight: bold;
+	list-style-type: none;
+}
+.subnavi li a:hover{
+	text-decoration: none;
+	color: #FC0;
+}
+.subnavi li.current{
+	color: #FC0;
+}
+/*#Visual{
+	margin-bottom:50px;
+}*/
+
+
+
+
+/*----------------------------------*/
+#aisatu{
+	text-align: center;
+}
+#aisatu h1{
+	font-size:24px;
+	margin-bottom: 50px;
+}
+#aisatu .kotoba{
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+
+
+/*----------------------------------*/
+.syudan{
+	margin-left: 10px;
+	margin-top: 10px;	
+}
+
+iframe{
+	margin-top: 130px;
+	margin-left: 100px;
+}
+
+
+
+.syudan h1{
+	font-weight: bold;
+	font-size: 18px;
+}
+.syudan p{
+	margin-bottom: 10px;
+}
+.syudan #bun{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 50px;
+}
+.apu a{
+	color: #06F;
+}
+.apu2{
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.apu2 a{
+	color: #06F;
+}
+.keikaku{
+    margin-left: 10px;
+}
+.keikaku a{
+    color: #06F;
+}
+
+
+/*------------------------------------------*/
+.bukaturan li{
+	font-size: 18px;
+}
+
+/*---------------------------------------*/
+.syudan img{
+	margin-bottom: 20px;
+}
+.kotoba2{
+	font-weight: bold;
+	font-size: 18px;
+}
+.kotoba3{
+	margin-bottom: 50px;
+}
+
+
+#Select .kosu{
+	margin-top: 55px;
+}
+
+#sintyaku{
+	text-align: center;
+}
+#sintyaku img{
+	margin-bottom: 20px;
+}
+#sintyaku ul li{
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+

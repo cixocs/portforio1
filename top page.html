@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Kazukiポートフォリオサイト</title>
+    <link rel="stylesheet" href="common/css/normalize.css">
+    <link rel="stylesheet" href="common/css/style.css">
+    
+    <script src="common/js/jquery-1.11.1.min.js"></script>
+    <script src="common/js/jquery.bxslider/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="common/js/jquery.bxslider/jquery.bxslider.css">
+    
+	<script>
+	$(document).ready(function(){
+       $('.bxslider').bxSlider( {
+		   auto: true,
+		   speed: 1000,
+		   pause: 4000
+	   });
+    });
+	</script>
+
+</head>
+
+<body>
+
+<div id="page">
+
+<header id="pageHead">
+<h1 id="siteTitle">KAZUKI Yoshikawa</h1>
+<p id="catchcopy">Portfolio site</p>
+  <nav class="globalNavi"> 
+   <ul>
+      <li class="current"><a href="top page.html">ホーム</a></li>
+      <li><a href="about/index.html">わたし</a></li>
+      <li><a href="portfolio/index.html">つくったもの</a></li>
+      <li><a href="contact/index.html">こんたくと</a></li>
+   </ul>
+  </nav> 
+</header>
+
+<div id="pageBody">
+
+<section class="mainVisual">
+<ul class="bxslider">
+<li>
+ <img src="images/wecook.jpg" width="980" height="500" alt="">
+</li>
+<li>
+ <img src="images/ピタゴラ.jpg" width="980" height="500" alt="">
+</li>
+<li>
+ <img src="images/おもちゃ.jpg" width="980" height="500" alt="">
+</li>
+</ul>
+ </section>
+    
+</div>
+
+<section class="portfolioIndex">
+<article>
+     <a href="portfolio/03.html"><img src="portfolio/images/wecook.jpg" width="300" height="163" alt=""></a>
+     <h2>WeeCook</h2>
+     <p>「心の変化を促す」をテーマに作成したアプリ提案</p>
+</article>
+<article>
+     <a href="portfolio/02.html"><img src="portfolio/images/ピタゴラ.jpg" width="300" height="163" alt=""></a>
+     <h2>拡張現実ピタゴラ装置</h2>
+     <p>プログラミングとセンサーを用いてのピタゴラ装置の作成</p>
+</article>
+<article>
+     <a href="portfolio/01.html"><img src="portfolio/images/おもちゃ.jpg" width="300" height="163" alt=""></a>
+     <h2>筒音し</h2>
+     <p>既存のおもちゃの分析を行い新たなおもちゃの提案</p>
+</article>
+</section>
+
+
+
+<p class="pagetop"><a href="#page">ページの先頭へ戻る</a></p>
+
+
+<footer id="pageFoot">
+<p id="copyright"><small>Copyright&copy; 2013 @yoshikawaaaaaaa All Right.<small></p>
+</footer>
+
+</div>
+
+</body>
+</html>
